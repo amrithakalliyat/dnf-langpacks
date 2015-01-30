@@ -5,4 +5,5 @@ rpm -q dnf-langpacks |grep "package is installed"
 dnf langavailable hindi |grep "hindi is available"
 echo "test pass"
 
-
+echo "test the command langinfo"
+dnf langinfo hindi 
